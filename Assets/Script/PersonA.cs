@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PersonA : MonoBehaviour
 {
-    string _nome = "Mario";
+    string _nome = "Jhulya", pessoa = "Mario";
+          
     // Start is called before the first frame update
     void Start()
     {
