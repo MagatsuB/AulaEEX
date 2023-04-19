@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 639873894}
   - component: {fileID: 639873893}
   - component: {fileID: 639873892}
-  - component: {fileID: 639873891}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -142,20 +141,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &639873891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639873890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b9667386b71b845aa24487f8555f41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _Pos: {fileID: 1432053066}
-  _pos2: {x: 0, y: 0, z: 0}
 --- !u!81 &639873892
 AudioListener:
   m_ObjectHideFlags: 0
@@ -317,54 +302,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1974086443
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1974086445}
-  - component: {fileID: 1974086444}
-  m_Layer: 0
-  m_Name: Exemplo (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1974086444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974086443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faac35852ef4f2d4da22d2b4559c7e85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _nome: Luigi
-  idade: 0
-  velocidade: 0
-  _personagem: {fileID: 0}
---- !u!4 &1974086445
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974086443}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.0728487, y: -0.8260144, z: 0.020958792}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2113330674
@@ -377,8 +314,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2113330676}
   - component: {fileID: 2113330675}
+  - component: {fileID: 2113330677}
+  - component: {fileID: 2113330678}
   m_Layer: 0
-  m_Name: Exemplo
+  m_Name: Texto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -415,3 +354,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2113330677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113330674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 636b2607f31f75d48a537dd65de5c029, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Nome: Luigi
+  _Sobrenome: Aragon
+  _NomeCompleto: 
+--- !u!114 &2113330678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113330674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c789d55b9d50c34bb5759d7fffbd57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _DiaNascimento: 07
+  _MesNascimento: 07
+  _AnoNascimento: 1996
+  _DataDeNascimento: 
