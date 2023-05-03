@@ -62,7 +62,7 @@ public class Condicoes : MonoBehaviour
             _t1 = "Pasagem Bloqueada";
         }
 
-        Debug.Log(_t1);
+        //Debug.Log(_t1);
 
     }
 
